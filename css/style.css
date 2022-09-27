@@ -15,6 +15,13 @@
   --bottom-line-item: #eeeeee;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -34,12 +41,14 @@ p {
   margin: 0;
 }
 
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 
 .list {
   list-style: none;
@@ -50,6 +59,7 @@ p {
 .link {
   text-decoration: none;
 }
+
 
 /*------------------Header------------*/
 .header {
@@ -140,10 +150,6 @@ p {
 /*---------------Main----------------*/
 .main {
   background-color: var(--body-backgrounf-color);
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .hero {
@@ -237,8 +243,8 @@ p {
   gap: 30px;
 }
 
-.practical-item {
-}
+
+
 
 .section-title {
   font-size: 36px;
@@ -455,13 +461,17 @@ p {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
+  gap: 30px;
+
 }
 
 .project-item {
+  
   width: calc((100% - 60px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
+
+}
+.img{
+  display: block;
 }
 
 .project-item:nth-child(3n) {
@@ -484,7 +494,6 @@ p {
   font-size: 16px;
   line-height: 1.87;
   color: var(--second-color);
-  margin-bottom: 20px;
 }
 
 /* ---------Footer-------- */
